@@ -5,7 +5,7 @@ root.geometry("700x500")
 l=tk.Label(root,text="Enter name: ")#label----> it is to display what to be shown on screen 
 l.grid(row=0,column=0)# grid----> is to set the location
 #l.pack()-----> will not be able to keep in desired position
-e=tk.Entry(root)
+e=tk.Entry(root)#tk.text -------> for multi statements
 e.grid(row=0,column=1)
 #e.pack()
 l1=tk.Label(root,text="Enter address: ")
