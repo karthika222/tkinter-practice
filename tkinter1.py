@@ -28,5 +28,5 @@ def submit():
     
 b1=tk.Button(root,text="Submit",command=submit)
 b1.grid(row=2,column=0)
-root.mainloop()
+root.mainloop()#---------> it is to make the window appear
 
